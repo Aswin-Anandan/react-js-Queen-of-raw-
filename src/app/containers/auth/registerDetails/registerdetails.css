@@ -1,0 +1,296 @@
+
+#rd-bg{
+    width: 90%;
+    height: 82px;
+    background: #005EAD;
+    position:relative;
+    left:5%;
+    display:flex;
+    align-items: center;
+    }
+    #rd-bg h3{
+        position: relative;
+        left:10%;
+        font-family: Abril Fatface;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: -0.3px;
+    color: white;
+    }
+    .g2 {
+        margin-top: 20px;
+    }
+    html,body{
+        background: white;
+    }
+    .form-grid{
+        width:80%;
+        position: relative;
+        left:7%;
+        gap:80px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-top: -55px;
+    }
+    .RegisterDetailsForm-layout-91 {
+        width: 100%;
+        margin: 10px;
+        padding: 5px;
+    }
+    .g1 select{
+        max-width: 428px !important;
+    }
+    
+    .form-grid input{
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        letter-spacing: -0.3px;
+        width: 434px;
+        height: 72px;
+        background: rgba(235, 245, 255, 0.5);
+        border: 1px solid #C4C4C4 !important;
+        box-sizing: border-box;
+        border-radius: 10px 10px 0px 0px;
+        color: #5E5E5E; 
+    }
+    .g1 select{
+        margin-top: 18px;
+    }
+    .g2 select{
+        margin-top: 18px;
+    }
+    .form-grid select{
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        letter-spacing: -0.3px;
+        min-width: 534px;
+        height: 72px;
+        background: rgba(235, 245, 255, 0.5);
+        border: 1px solid #C4C4C4 !important;
+        box-sizing: border-box;
+        border-radius: 10px 10px 0px 0px;
+        color: rgb(94, 94, 94, 0.5);
+        }
+    #op-color{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.3px;
+    color: #5E5E5E !important;
+    position:relative !important;
+    left:20px !important;
+    margin-left: 20px !important;
+    }
+    .form-grid input::placeholder{
+    
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        letter-spacing: -0.3px;
+        color: #5E5E5E !important;
+        position: relative;
+        left:20px;
+    }
+    
+    .g1 input{
+    border-bottom: 2px solid rgba(0, 94, 173, 1) !important;
+    }
+    .g2 input{
+        border-bottom: 2px solid rgba(94, 94, 94, 1) !important;
+        
+    }
+    .g1 select{
+        border-bottom: 2px solid rgba(0, 94, 173, 1) !important;
+        }
+        .g2 select{
+            border-bottom: 2px solid rgba(94, 94, 94, 1) !important;
+            
+        }
+    #ask{
+        width: 434px;
+    height: 174px;
+    border-bottom: 1px solid #C4C4C4 !important;
+    margin-top: 15px;
+    
+    }
+    #rd-btn{
+    width: 186px;
+    height: 56px;
+    background: #FFFFFF;
+    border: 1px solid #005EAD !important;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color:rgba(0, 94, 173, 1);
+    font-style: normal;
+    font-size: 20px;
+    line-height: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500 !important;
+    
+    }
+    #grey{
+        font-family: Arial, Helvetica, sans-serif; 
+        font-weight: 500; 
+    color: rgb(94, 94, 94, 0.7);
+    font-size: 20px;
+    
+    }
+    .g1 span{
+        padding-top: 30px !important;
+    padding-bottom: 20px !important;
+    }
+    #radio-btn{
+        
+        width:20px;
+        height:20px;
+        font-weight: 500 !important;
+    }
+    .g2 label{
+        position: relative;
+        top: -5px;
+    }
+    .g2{
+        position: relative;
+        top: 10px;
+    }
+    .rd-bg{
+        font-weight: 500;
+        width:100%
+    }
+    #rd-bg{
+        font-weight: 500;
+        width:100%
+    }
+    .g1 select{
+        margin-bottom: 25px;
+    }
+    #vendor{
+        font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 40px;
+color: #C2C9D1;
+    }
+    #bottom-radio{
+        margin-top: 30px;
+        position: relative;
+        left:7%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        font-weight: 100 !important;
+        
+    color: #5E5E5E;
+    }
+    #bottom-radio label{
+    position: relative;
+    top:-5px
+    }
+    #radio-btn2{
+        margin-left: -8px;
+        width: 20px;
+        height: 20px;
+    }
+    #btn-rd{ 
+        font-family: Arial, Helvetica, sans-serif;  
+    width: 158px;
+    height: 56px;
+    background: #005EAD;
+    border: 1px solid #005EAD;
+    box-sizing: border-box;
+    border-radius: 5px;
+    }
+    #last-section{
+        margin-top: 50px;
+        width:90%;
+        height: 106px;
+        position: relative;
+        left:6%;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    #last-section button{
+        margin-top: 20px;
+        position: relative;
+        right:5%;
+    }
+    #last-section p{
+        font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.3px;
+    position: relative;
+    margin-top: 20px;
+    left: 5%;
+    color: #005EAD;
+    }
+    @media(max-width:1180px){
+    .form-grid select{
+        min-width: 400px !important;
+    }
+    }
+    
+    @media(max-width:1000px){
+        .form-grid select{
+            min-width: 100px !important;
+        }
+        }
+    
+    @media(max-width:730px) {
+        .form-grid{
+            width:80%;
+            position: relative;
+            left:10%;
+            gap:80px;
+            display: grid;
+            grid-template-columns: 100%;
+        }   
+    }
+    @media(max-width:630px) {
+       #last-section{
+           display:block;
+           align-items: center;
+       }
+       #last-section button{
+        margin-top: 5px;
+        position: relative;
+        right:0%;
+        left:30%;
+    }
+        
+    }
+    @media(max-width:420px) {
+        #last-section{
+            display:block;
+            align-items: center;
+            height:150px;
+        }
+        #last-section button{
+            margin-top: 5px;
+            position: relative;
+            right:0%;
+            left:5%;
+        }
+        
+         
+     }
+     

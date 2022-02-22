@@ -1,0 +1,77 @@
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #005EAD;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: rgb(0, 140, 255);
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  position: fixed;
+  color: rgb(0, 0, 0);
+  padding: 10px 15px;
+  border: none;
+  position:relative;
+  top:0px;
+  display: none;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #005EAD !important;
+}
+.closebtn{
+  height:50px;
+  width:60px
+}
+.closebtn:hover{
+  background-color: rgb(0, 95, 204);
+  color:black !important;
+}
+body{
+  overflow-x: hidden;
+}
+.closebtn p{
+position:relative;
+left:-15px;
+top:-10px;
+}
+
+.openbtn:hover {
+  background-color: rgb(9, 78, 156) !important;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+@media(max-width:931px){
+  .openbtn{
+    display:block;
+  }
+}

@@ -1,0 +1,164 @@
+.r-img{
+   background-image: url("../../../../assets/pub/media/onboard/img1.png");
+   background-size: cover;
+   background-position: center;
+   width:100%;
+   height: 430px;
+   margin-top: 70px;
+}
+
+
+.r-grid{
+    display:grid;
+    width:90%;
+    position: relative;
+    left:5%;
+    grid-template-columns: 50%  50%;
+    margin-top: 0px;
+}
+.le-grid{
+    text-align: left;
+    position: relative;
+    left: 30%;
+}
+.ri-grid{
+    text-align:left;
+    position: relative;
+    left: 10%;
+}
+.r-grid div{
+    margin-top: 20px;
+}
+.r-grid p{
+    font-weight: 100 !important;
+    font-size: 20px;
+    color: rgb(75, 76, 77);
+}
+.r-top h5{
+    position: relative;
+    left: -5%;
+    margin-top: 40px;
+    font-weight: 300;
+    color: rgb(6, 96, 148);
+}
+main{
+    width:100%;
+}
+.ri-grid input{
+    border: 1px solid rgb(82, 78, 78) !important;
+    
+}
+.le-grid input{
+    border: 1px solid rgb(82, 78, 78) !important;
+    position:relative;
+    left:10%;
+}
+#red{
+    color: rgb(156, 4, 4);
+}
+#c-box{
+    width:15px;
+    height:15px;
+}
+#c-box2{
+    width:15px;
+    height:15px;
+    margin-left: 60px;
+}
+#ch-box{
+    
+  
+}
+#i1{
+    margin-left: 100px;
+}
+#i2{
+    margin-left:75px;
+}
+#i3{
+    margin-left:20px;
+}
+button{
+    padding:0px 15px 0px 15px;
+    border-radius: 5px;
+    border: 1px solid black !important;
+    cursor: pointer;
+    
+}
+.cr-btn{
+    padding:0px 15px 0px 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(24, 79, 151) !important;
+    cursor: pointer;
+    color: rgb(24, 79, 151);
+    
+}
+@media (max-width:1200px){
+
+.r-grid{
+    display:grid;
+    width:50%;
+    position: relative;
+    left:30%;
+    grid-template-columns: 100%;
+    margin-top: 0px;
+    
+}
+.le-grid{
+    text-align: left;
+    position: relative;
+    left: 0%;
+    max-width: 800px;
+}
+.ri-grid{
+    text-align: left;
+    position: relative;
+    left: 0%;
+    max-width: 800px;
+}
+main{
+    width:100%;
+    text-align: center;
+}
+
+
+}
+@media (max-width:719px){
+   
+    .r-grid{
+        display:grid;
+        width:90%;
+        position: relative;
+        left:10%;
+        grid-template-columns: 100%;
+        margin-top: 0px;
+        
+    }
+}
+@media (max-width:600px){
+    .r-grid{
+        display:grid;
+        width:90%;
+        position: relative;
+        left:10%;
+        grid-template-columns: 100%;
+        margin-top: 0px;
+        
+    }
+ 
+}
+@media (max-width:400px){
+    #i1{
+        margin-left: 0px;
+        text-align: left;
+    }
+    #i2{
+        margin-left:0px;
+        text-align: left;
+    }
+    #i3{
+        margin-left:0px;
+        text-align: left;
+    }
+ 
+}
